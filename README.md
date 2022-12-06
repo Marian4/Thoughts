@@ -3,9 +3,9 @@ Application created while studying NodeJS
 
 # Technologies
 
-JavaScript
-NodeJS
-Express
-Handlebars
-MySQL
-Sequelize
+- JavaScript
+- NodeJS
+- Express
+- Handlebars
+- MySQL
+- Sequelize
