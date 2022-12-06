@@ -1,0 +1,19 @@
+<div class="tought">
+    <div id="content">
+        <h3 id="tought"><i>{{this.tought}}</i></h3>
+        {{#if this.options}}
+        <div>
+            <form action="/toughts/delete/{{this.id}}" method="POST">
+            <button type="submit"><img src="img/trash.png" /></button>
+            </form>
+            <form action="/toughts/edit/{{this.id}}" method="GET">
+            <button type="submit"><img src="img/edit.png" /></button>
+            </form>
+        </div>
+        {{/if}}
+    </div>
+    <div id="toughtInfo">
+        <p>{{this.username}}</p>
+        <p>{{this.createdAt}}</p>
+    </div>
+</div>

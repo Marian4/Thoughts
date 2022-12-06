@@ -1,0 +1,12 @@
+<h2>Dashboard</h2>
+
+<form action="toughts/add" method="GET" class="form">
+    <button type="submit">+ Criar</button>
+</form>
+{{#if userToughts}}
+{{#each userToughts}}
+    {{>tought}}
+{{/each}}
+{{else}}
+    <h3>Você ainda não possui nenhum pensamento publicado.</h3>
+{{/if}}

@@ -1,0 +1,211 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+}
+#logo img{
+    height: 40px;
+}
+#navbar{
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #f6982d;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#navbar ul li{
+    margin-left: 1em;
+}
+#navbar ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#navbar ul li a:hover{
+    color: #f6982d;
+}
+#container{
+    min-height: 60vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container #allToughtsDiv #searchArea{
+    margin: 2em 0 3em 0;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container #allToughtsDiv #searchArea #searchInput{
+    width: 400px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid #f6982d;
+    background-color: transparent;
+    padding: 0 0.5em;
+    color: #fff;
+}
+
+#container #allToughtsDiv #searchArea #searchButton{
+    height: 52px;
+    border-radius: 3px;
+    padding: 0 0.5em;
+    border: 1px solid #f6982d;
+    cursor: pointer;
+}
+
+#container #allToughtsDiv #searchArea #searchButton img{
+    max-height: 30px;
+    background-color: transparent;
+
+}
+
+#container #allToughtsDiv{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+footer{
+    margin-top: 5em;
+    height: 150px;
+    border-top: 1px solid #f6982d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer span{
+    font-weight: bold;
+    color: #f6982d;
+}
+
+/*container*/
+
+.message {
+    padding: 1em;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px soli d#b8daff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+}  
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 1em;
+}
+
+.form label{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.form input{
+    height: 50px;
+    margin: 1em 0;
+    padding: 0 0.5em;
+    background-color:transparent;
+    color: #fff;
+    border: 1px solid #f6982d;
+    border-radius: 3px;
+}
+
+.form textarea{
+    height: 100px;
+    margin: 1em 0;
+    padding: 0.5em 0.5em;
+    background-color:transparent;
+    color: #fff;
+    border: 1px solid #f6982d;
+    border-radius: 3px;
+}
+
+.form button{
+    cursor: pointer;
+    height: 50px;
+    margin: 1em 0;
+    background-color: transparent;
+    color: #f6982d;
+    border: 2px solid #f6982d;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+.form button:hover{
+    background-color: #f6982d;
+    color: #fff;
+}
+
+.tought{
+    width: 600px;
+    max-width: 600px;
+    border-bottom: 1px solid gray;
+    padding: 1em 0 1em 0;
+    margin: 1em 0 1em 0;
+}
+
+.tought #toughtInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.tought #toughtInfo p{
+    padding: 10px 0 0 0;
+    font-size: 0.8em;
+    color: #f6982d;
+    margin: 0 0.7em 0 0;
+}
+.tought #content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tought #content div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tought #content div form button{
+    border: none;
+    cursor: pointer;
+}
+
+.tought #content div form button img{
+    max-height: 20px;
+    margin-left: 1em;
+}
+
+h2{
+    border-left: 4px solid #f6982d;
+    padding: 0.3em;
+}

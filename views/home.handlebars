@@ -1,0 +1,10 @@
+<h2>Todos os pensamentos</h2>
+<div id="allToughtsDiv">
+    <div id="searchArea">
+        <input name="search" placeholder="Está procurando algo?" id="searchInput"/>
+        <button id="searchButton"><img src="img/search.png"></button>
+    </div>
+{{#each toughts}}
+    {{>tought}}
+{{/each}}
+</div>
